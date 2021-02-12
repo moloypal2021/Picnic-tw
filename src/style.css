@@ -32,6 +32,20 @@
     }
 }
 
+/* Minimum 768px screensize scrollbar hide */
+
+@media(min-width: 768px) {
+    .md\:no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .md\:no-scrollbar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+}
+
 /* Custom size and color scrollbar */
 
 .picnic-scrollbar::-webkit-scrollbar {
