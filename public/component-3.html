@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picnic Component 3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="bg-red-picnic">
+        <div class="container mx-auto relative md:py-20 py-10 2xl:px-20 xl:px-2 px-4">
+            <div class="flex border-b border-dark-picnic pb-6">
+                <div class="">
+                    <h3 class="text-2xl font-barlow text-white leading-8 uppercase">near you</h3>
+                </div>
+                <div class="ml-auto">
+                    <select
+                        class="appearance-none focus:bg-dark-picnic focus:text-white focus:shadow-picnic-sm bg-white border-2 border-dark-picnic shadow-picnic-sm text-sm font-karla text-dark-picnic px-4 py-2 md:hidden block">
+                        <option class="bg-dark-picnic text-white hover:bg-red-picnic">View all</option>
+                        <option class="bg-dark-picnic text-white hover:bg-red-picnic">Restaurants</option>
+                        <option class="bg-dark-picnic text-white hover:bg-red-picnic">Producers</option>
+                        <option class="bg-dark-picnic text-white hover:bg-red-picnic">Products</option>
+                    </select>
+                    <div class="grid grid-flow-col auto-cols-max gap-12 md:inline-grid hidden">
+                        <!--  Button Active Classes are focus:{class}  -->
+                        <button
+                            class="focus:outline-none text-dark-picnic bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla">View
+                            all</button>
+                        <button
+                            class="focus:outline-none focus:bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla text-dark-picnic">Restaurants</button>
+                        <button
+                            class="focus:outline-none focus:bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla text-dark-picnic">Producers</button>
+                        <button
+                            class="focus:outline-none focus:bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla text-dark-picnic">Products</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

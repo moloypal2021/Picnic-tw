@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picnic Component 14</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--****** This Component Bind With max-width: 1536px; ***** -->
+    <section
+        class="max-w-screen-2xl mx-auto border-8 border-dark-picnic w-full lg:h-670px md:h-610px sm:h-500px h-425px relative">
+        <!-- Map Image Start -->
+        <img src="./image/com15-map.png" alt="" class="w-full h-full object-cover object-center absolute">
+        <!-- Map Image End -->
+
+        <!-- Map Buttons Start -->
+        <div class="lg:bottom-8 lg:top-auto top-8 right-6 absolute">
+
+            <!-- Map Buttons For Mobile View Screen Start-->
+            <select
+                class="appearance-none focus:bg-dark-picnic focus:text-white focus:shadow-picnic-sm bg-white border-2 border-dark-picnic shadow-picnic-sm text-sm font-karla text-dark-picnic px-4 py-2 sm:hidden block">
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">View all</option>
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">Restaurants</option>
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">Producers</option>
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">Products</option>
+            </select>
+            <!-- Map Buttons For Mobile View Screen End-->
+
+            <!-- Map Buttons For Tablet to desktop View Screen Start-->
+            <div class="grid grid-flow-col auto-cols-max gap-6 sm:inline-grid hidden">
+                <!--  Button Active Classes are focus:----  -->
+                <button
+                    class="focus:outline-none bg-white text-dark-picnic bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla">View
+                    all</button>
+                <button
+                    class="focus:outline-none focus:bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla text-dark-picnic">Restaurants</button>
+                <button
+                    class="focus:outline-none focus:bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla text-dark-picnic">Producers</button>
+                <button
+                    class="focus:outline-none focus:bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla text-dark-picnic">Products</button>
+            </div>
+            <!-- Map Buttons For Tablet to desktop View Screen End-->
+
+        </div>
+        <!-- Map Buttons End -->
+
+        <!-- Map Location List Start -->
+        <div
+            class="bg-grey-bg-picnic bg-opacity-70 xl:max-w-xl lg:max-w-lg h-full overflow-y-auto picnic-scrollbar absolute lg:block hidden px-6">
+            <div class="py-7 border-b border-dark-picnic border-opacity-30">
+                <div class="flex">
+                    <div class="sm:w-32 w-24 sm:h-32 h-24 mr-4">
+                        <img src="./image/com15-img-1.jpg" alt=""
+                            class="w-full h-full object-cover object-center border-8 border-dark-picnic shadow-picnic-sm">
+                    </div>
+                    <div class="sm:w-96 w-36">
+                        <h2 class="text-2xl text-red-picnic font-barlow uppercase leading-8 mb-2">
+                            radicchio
+                            di treviso
+                        </h2>
+                        <div class="flex sm:border-b border-dark-picnic sm:pb-4">
+                            <p
+                                class="text-lg font-karla text-grey-text-picnic leading-8 pr-6 border-r border-dark-picnic sm:block hidden">
+                                Traditional - Trattoria</p>
+                            <p class="text-lg font-karla text-grey-text-picnic leading-8 sm:pl-6"> Restaurants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-7 border-b border-dark-picnic border-opacity-30">
+                <div class="flex">
+                    <div class="sm:w-32 w-24 sm:h-32 h-24 mr-4">
+                        <img src="./image/com15-img-2.jpg" alt=""
+                            class="w-full h-full object-cover object-center border-8 border-dark-picnic shadow-picnic-sm">
+                    </div>
+                    <div class="sm:w-96 w-36">
+                        <h2 class="text-2xl text-red-picnic font-barlow uppercase leading-8 mb-2">
+                            Septime
+                        </h2>
+                        <div class="flex sm:border-b border-dark-picnic sm:pb-4">
+                            <p
+                                class="text-lg font-karla text-grey-text-picnic leading-8 pr-6 border-r border-dark-picnic sm:block hidden">
+                                Traditional</p>
+                            <p class="text-lg font-karla text-grey-text-picnic leading-8 sm:pl-6"> Restaurants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-7 border-b border-dark-picnic border-opacity-30">
+                <div class="flex">
+                    <div class="sm:w-32 w-24 sm:h-32 h-24 mr-4">
+                        <img src="./image/com15-img-3.jpg" alt=""
+                            class="w-full h-full object-cover object-center border-8 border-dark-picnic shadow-picnic-sm">
+                    </div>
+                    <div class="sm:w-96 w-36">
+                        <h2 class="text-2xl text-red-picnic font-barlow uppercase leading-8 mb-2">
+                            Chache
+                        </h2>
+                        <div class="flex sm:border-b border-dark-picnic sm:pb-4">
+                            <p
+                                class="text-lg font-karla text-grey-text-picnic leading-8 pr-6 border-r border-dark-picnic sm:block hidden">
+                                Pizzeria</p>
+                            <p class="text-lg font-karla text-grey-text-picnic leading-8 sm:pl-6"> Restaurants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-7 border-b border-dark-picnic border-opacity-30">
+                <div class="flex">
+                    <div class="sm:w-32 w-24 sm:h-32 h-24 mr-4">
+                        <img src="./image/com15-img-2.jpg" alt=""
+                            class="w-full h-full object-cover object-center border-8 border-dark-picnic shadow-picnic-sm">
+                    </div>
+                    <div class="sm:w-96 w-36">
+                        <h2 class="text-2xl text-red-picnic font-barlow uppercase leading-8 mb-2">
+                            radicchio
+                            di treviso
+                        </h2>
+                        <div class="flex sm:border-b border-dark-picnic sm:pb-4">
+                            <p
+                                class="text-lg font-karla text-grey-text-picnic leading-8 pr-6 border-r border-dark-picnic sm:block hidden">
+                                Traditional - Trattoria</p>
+                            <p class="text-lg font-karla text-grey-text-picnic leading-8 sm:pl-6"> Restaurants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4 py-7 border-b border-dark-picnic border-opacity-30">
+                <div class="flex">
+                    <div class="sm:w-32 w-24 sm:h-32 h-24 mr-4">
+                        <img src="./image/com15-img-2.jpg" alt=""
+                            class="w-full h-full object-cover object-center border-8 border-dark-picnic shadow-picnic-sm">
+                    </div>
+                    <div class="sm:w-96 w-36">
+                        <h2 class="text-2xl text-red-picnic font-barlow uppercase leading-8 mb-2">
+                            radicchio
+                            di treviso
+                        </h2>
+                        <div class="flex sm:border-b border-dark-picnic sm:pb-4">
+                            <p
+                                class="text-lg font-karla text-grey-text-picnic leading-8 pr-6 border-r border-dark-picnic sm:block hidden">
+                                Traditional - Trattoria</p>
+                            <p class="text-lg font-karla text-grey-text-picnic leading-8 sm:pl-6"> Restaurants</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Map Location List End -->
+
+    </section>
+</body>
+
+</html>

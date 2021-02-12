@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picnic Component 16</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--****** This Component Bind With max-width: 1536px; ***** -->
+    <section
+        class="max-w-screen-2xl mx-auto border-8 border-dark-picnic w-full xl:h-796px md:h-610px sm:h-500px h-425px relative">
+        <!-- Map Image Start -->
+        <img src="./image/com15-map.png" alt="" class="w-full h-full object-cover object-center absolute">
+        <!-- Map Image End -->
+
+        <!-- Map Buttons Start -->
+        <div class="top-8 right-6 absolute">
+
+            <!-- Map Buttons For Mobile View Screen Start-->
+            <select
+                class="appearance-none focus:bg-dark-picnic focus:text-white focus:shadow-picnic-sm bg-white border-2 border-dark-picnic shadow-picnic-sm text-sm font-karla text-dark-picnic px-4 py-2 sm:hidden block">
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">View all</option>
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">Restaurants</option>
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">Producers</option>
+                <option class="bg-dark-picnic text-white hover:bg-red-picnic">Products</option>
+            </select>
+            <!-- Map Buttons For Mobile View Screen End-->
+
+            <!-- Map Buttons For Tablet to desktop View Screen Start-->
+            <div class="grid grid-flow-col auto-cols-max gap-6 sm:inline-grid hidden">
+                <!--  Button Active Classes are focus:----  -->
+                <button
+                    class="focus:outline-none bg-dark-picnic text-white bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla">View
+                    all</button>
+                <button
+                    class="focus:outline-none focus:bg-dark-picnic focus:text-white bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla  text-dark-picnic">Restaurants</button>
+                <button
+                    class="focus:outline-none focus:bg-dark-picnic focus:text-white bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla  text-dark-picnic">Producers</button>
+                <button
+                    class="focus:outline-none focus:bg-dark-picnic focus:text-white bg-white border-2 border-dark-picnic shadow-picnic-sm px-4 py-2 text-sm font-karla  text-dark-picnic">Products</button>
+            </div>
+            <!-- Map Buttons For Tablet to desktop View Screen End-->
+
+        </div>
+        <!-- Map Buttons End -->
+
+        <!-- Map Location Details Start -->
+        <div class="xl:h-480px md:h-400px max-w-xs absolute inset-y-0  left-8 my-auto md:block hidden">
+            <img src="./image/com16-img.jpg" alt=""
+                class="w-full h-full object-cover object-center shadow-picnic border-8 border-dark-picnic" />
+            <div class="relative z-50">
+                <div class="absolute bottom-8 left-6">
+                    <h3 class="text-2xl font-barlow text-white leading-8 uppercase mb-2">radicchio di treviso</h3>
+                    <h5 class="text-lg font-karla text-white leading-8 mb-2">Traditional - Trattoria</h5>
+                    <hr class="border-white mb-2">
+                    <h5 class="text-lg font-karla text-white leading-8 mb-2">Restaurants</h5>
+                    <button
+                        class="focus:outline-none bg-dark-picnic text-white bg-white border-2 border-white shadow-picnic-white-sm px-4 py-2 text-sm font-karla">View
+                        detail</button>
+                </div>
+            </div>
+        </div>
+        <!-- Map Location Details End -->
+
+    </section>
+</body>
+
+</html>
